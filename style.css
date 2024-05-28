@@ -15,7 +15,7 @@ nav {
     font-size: 27px;
 }
 
-nav a, .intro-about > a {
+nav a, .intro-about > a, footer a {
     text-decoration: none;
     color: black;
     font-weight: bold;

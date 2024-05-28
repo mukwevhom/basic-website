@@ -14,3 +14,5 @@ let aboutSectionHTML = `<div class="container">
 aboutSection.innerHTML = aboutSectionHTML
 
 introSection.after(aboutSection)
+
+document.querySelector(".footer-year").textContent = new Date().getFullYear()
